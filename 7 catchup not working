@@ -1,0 +1,30 @@
+I click on show and my mxq pro androind running 17.1 thinks about it but does not play shows on 7 plus. Log below for 7 plus. Tried for 2 different shows. Thanks
+
+NOTICE:  [Plus7 v3.1.1] XBMC 17.1 running on Android
+07:20:50.525 T:18446744072340388688  NOTICE:  [Plus7 v3.1.1] Fetching program information for: 34637795
+07:20:50.525 T:18446744072340388688  NOTICE:  [Plus7 v3.1.1] Fetching URL: https://api.brightcove.com/services/library?command=find_video_by_reference_id&reference_id=34637795&media_delivery=HTTP_IOS&video_fields=id,name,shortDescription,videoStillURL,length,FLVURL,captioning&token=BMG-nlpt1dDQcdqz-EIBAUNRGtXnLQv-gbltLyHgproxck0YUZfnkA..
+07:20:51.921 T:18446744072340388688  NOTICE:  [Plus7 v3.1.1] Subtitles are available for this program
+07:20:51.921 T:18446744072340388688  NOTICE:  [Plus7 v3.1.1] Using native HTTPS HLS stream handling...
+07:20:51.955 T:18446744072340388688  NOTICE:  [Plus7 v3.1.1] Attempting to play: 800 Words 2017: Tue 14 Mar, season 2 episode 15
+07:20:52.065 T:18446744072288931744  NOTICE:  VideoPlayer: Opening: https://yahoo7p-a.akamaihd.net/2376984108001/201703/106/2376984108001_5358211564001_5358189253001.m3u8?pubId=2376984108001&videoId=5358189253001
+07:20:52.065 T:18446744072288931744 WARNING:  CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+07:20:52.110 T:18446744072347310576  NOTICE:  Creating InputStream
+07:20:52.157 T:18446744072347310576  NOTICE:  Creating Demuxer
+07:20:54.375 T:18446744072347310576   ERROR:  OpenDemuxStream - Error creating demuxer
+07:20:54.376 T:18446744072347310576  NOTICE:  CVideoPlayer::OnExit()
+07:20:54.384 T:18446744072288931744   ERROR:  Playlist Player: skipping unplayable item: 0, path [plugin://plugin.video.plus7/?program_id=34637795]
+
+
+NOTICE:  [Plus7 v3.1.1] XBMC 17.1 running on Android
+07:37:23.997 T:18446744072346670496  NOTICE:  [Plus7 v3.1.1] Fetching program information for: 34798574
+07:37:24.000 T:18446744072346670496  NOTICE:  [Plus7 v3.1.1] Fetching URL: https://api.brightcove.com/services/library?command=find_video_by_reference_id&reference_id=34798574&media_delivery=HTTP_IOS&video_fields=id,name,shortDescription,videoStillURL,length,FLVURL,captioning&token=BMG-nlpt1dDQcdqz-EIBAUNRGtXnLQv-gbltLyHgproxck0YUZfnkA..
+07:37:25.647 T:18446744072346670496  NOTICE:  [Plus7 v3.1.1] Subtitles are available for this program
+07:37:25.647 T:18446744072346670496  NOTICE:  [Plus7 v3.1.1] Using native HTTPS HLS stream handling...
+07:37:25.724 T:18446744072346670496  NOTICE:  [Plus7 v3.1.1] Attempting to play: Sydney Weekender: Sat, season 24 episode 5
+07:37:25.824 T:18446744072288931744  NOTICE:  VideoPlayer: Opening: https://yahoo7p-a.akamaihd.net/2376984108001/201703/2577/2376984108001_5372632000001_5372623138001.m3u8?pubId=2376984108001&videoId=5372623138001
+07:37:25.825 T:18446744072288931744 WARNING:  CDVDMessageQueue(player)::Put MSGQ_NOT_INITIALIZED
+07:37:25.872 T:18446744072355705640  NOTICE:  Creating InputStream
+07:37:25.922 T:18446744072355705640  NOTICE:  Creating Demuxer
+07:37:28.309 T:18446744072355705640   ERROR:  OpenDemuxStream - Error creating demuxer
+07:37:28.309 T:18446744072355705640  NOTICE:  CVideoPlayer::OnExit()
+07:37:28.330 T:18446744072288931744   ERROR:  Playlist Player: skipping unplayable item: 0, path [plugin://plugin.video.plus7/?program_id=34798574]
